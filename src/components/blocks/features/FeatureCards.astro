@@ -1,0 +1,73 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-13.svg'
+import feature02 from '../../../assets/cards/feature-08.svg'
+import feature03 from '../../../assets/cards/feature-11.png'
+import feature04 from '../../../assets/cards/feature-09.svg'
+import feature05 from '../../../assets/cards/feature-12.svg'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">Wir machen dein <strong>Leben</strong> sicherer</h2>
+			<p class="pb-0 text-lg">
+				Unser Ziel ist es, euch auf dem Weg zur digitalen Souveränität zu begleiten.
+
+				In der heutigen Zeit wird ein digitales Selbstbewusstsein immer wichtiger. 
+				Wir stellen dir unkommerzielle Dienste zur Verfügung, die deine Freiheit nicht einschränken, sondern fördern.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Sichere & verschlüsselte Chats"
+				subtitle="Statt auf die großen Plattformen wie WhatsApp oder Telegram zu setzen, wo niemand genau weiß, was mit den Daten passiert, bieten wir unseren eigenen Matrix-Chat-Server an. Oder du nutzt Signal."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Unkommerzielle & Dezentrale Netzwerke"
+				subtitle="Anstelle von politisch beeinflussten und kommerziellen, unsozialen Netzwerken, wollen wir soziale, dezentrale und unkommerzielle Netzwerke wie Mastodon in den Mittelpunkt rücken."
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Sicher Dateien teilen"
+				subtitle="Der Datentransfer zwischen Geräten ist essentielle Infrastruktur des Internets, die am besten von bekannten und vertrauenswürdigen Händen verwaltet wird. Wir bieten datenschutzfreundliche Alternativen zu Diensten wie Wetranfer und Co."
+				image={feature03}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Podcast Hosting"
+				subtitle="Independentes und zensurfreies Podcast-Hosting sollte auch jede Stadt ihren Anwohnerinnen und Anwohnern als öffentlich nutzbaren Dienst anbieten können." 
+				image={feature04}
+				link="/features"
+			/>
+			<Card
+				title="Verschlüsselter Datenverkehr"
+				subtitle="Ein VPN sollte stets zur Verfügung stehen, um den Privatsphärenschutz zu gewährleisten. Jeder hat das Recht, seinen Datentransfer zu verschlüsseln. "
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>

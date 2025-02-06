@@ -1,0 +1,65 @@
+---
+// Home page CTA Section
+// ------------
+// Description: A centered call to action section that contains: a title, text, a user review snippet, a button and a image.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import ChipNotification from '../../ui/ChipNotification.astro'
+import { Image } from 'astro:assets'
+import Button from '../../ui/Button.astro'
+import AvatarGroup from '../../ui/AvatarGroup.astro'
+
+// Content
+// - Hero Image
+import heroImage from '../../../assets/astro-new.png'
+// - Avatars
+import user1 from '../../../assets/avatars/avatar-01.webp'
+import user2 from '../../../assets/avatars/avatar-02.webp'
+import user3 from '../../../assets/avatars/avatar-03.webp'
+const avatars = [
+	{ image: { src: user1.src, alt: 'user name' }, link: '/' },
+	{ image: { src: user2.src, alt: 'user name' }, link: '/' },
+	{ image: { src: user3.src, alt: 'user name' }, link: '/' }
+]
+---
+
+<Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
+	<div class="container mx-auto px-6">
+	  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+		
+		<!-- Left Column: Text Content -->
+		<div>
+		  <h1 class="mx-auto mt-0 sm:-mt-12 md:-mt-24 text-left text-4xl sm:text-5xl md:text-6xl font-bold">
+			www.<strong>xanten</strong>.cc <br />
+			<strong>Care</strong> & <strong>Connect</strong> <br />
+			Deine <strong>Digitale</strong> Nachbarschaftshilfe
+		  </h1>
+
+		  <p class="pb-4 text-lg sm:text-xl md:text-2xl text-left">
+			Selbstbestimmt im digitalen Raum – für Dich und Deine <strong>Privatsphäre</strong>. Hier stärken wir gemeinsam Deine digitale Souveränität, indem Du selbst entscheidest, wer Zugang zu Deinen Daten hat. <br /><br />
+			Wir bieten digitale Dienste für ein soziales Miteinander und stärken die Nachbarschaft in Xanten.
+		  </p>
+
+		  <Button size="lg" link="/">Erfahre mehr!</Button>
+		</div>
+		
+		<!-- Right Column: Hero Image -->
+		<div class="flex justify-center py-12 sm:py-16 md:py-24 mt-0 sm:-mt-12 md:-mt-24">
+		  <Image
+			src={heroImage}
+			alt="Foxi. The tailwind astro theme"
+			class="w-full max-w-sm sm:max-w-md md:max-w-lg translate-y-8 shadow-neutral-200 dark:shadow-neutral-950"
+			format="png"
+		  />
+		</div>
+  
+	  </div>
+	</div>
+</Section>
+
+  

@@ -1,0 +1,83 @@
+---
+// Highlights Section
+// ------------
+// Description: A section with a multiple text and image rows.
+
+// Components
+// - UI
+import TextImage from '../basic/TextImage.astro'
+
+// Content
+import highlight01 from '../../../assets/highlights/highlight-011.svg'
+import highlight01mobile from '../../../assets/highlights/highlight-01-mobile.svg'
+import highlight02 from '../../../assets/highlights/highlight-02.svg'
+import highlight02mobile from '../../../assets/highlights/highlight-02-mobile.svg'
+import highlight03 from '../../../assets/highlights/highlight-03.svg'
+import highlight03mobile from '../../../assets/highlights/highlight-03-mobile.svg'
+import highlight04 from '../../../assets/highlights/highlight-04.svg'
+import highlight04mobile from '../../../assets/highlights/highlight-04-mobile.svg'
+
+type HighlightBlock = {
+	title: string
+	text: string
+	image: any
+	mobileImage?: any
+	imageWidth: number
+	imageHeight: number
+	imagePosition: 'left' | 'right'
+}
+const highlightBlocks: HighlightBlock[] = [
+	{
+		title: 'Warum <strong>digitale</strong> Souveränität wichtig ist',
+		text: 'In einer zunehmend vernetzten Welt ist es entscheidend, die Kontrolle über die eigenen Daten und digitalen Aktivitäten zu behalten. Hier sind die Schlüsselprinzipien, die digitale Souveränität ausmachen:',
+		image: highlight01,
+		imageWidth: highlight01.width,
+		imageHeight: highlight01.height,
+		mobileImage: highlight01mobile,
+		imagePosition: 'right'
+	},
+	{
+		title: 'Nutze unsere <strong>lokalen</strong> Tools',
+		text: 'Starte jetzt mit unseren datenschutzfreundlichen Tools ins Internet, über das du die volle Kontrolle hast.',
+		image: highlight02,
+		mobileImage: highlight02mobile,
+		imageWidth: highlight02.width,
+		imageHeight: highlight02.height,
+		imagePosition: 'left'
+	},
+	{
+		title: 'Kommuniziere <strong>Verschlüsselte</strong> für maximale Sicherheit',
+		text: 'Deine Kommunikation im Internet sollte immer verschlüsselt sein, wir helfen dir dabei, das umzusetzen. ',
+		image: highlight03,
+		mobileImage: highlight03mobile,
+		imageWidth: highlight03.width,
+		imageHeight: highlight03.height,
+		imagePosition: 'right'
+	},
+	{
+		title: 'Deine <strong>Daten</strong> in guten Händen',
+		text: 'Protect your data with our robust security features. We prioritize your privacy and security to ensure that your information is always safe. With end-to-end encryption, role-based access control, and regular security audits.',
+		image: highlight04,
+		mobileImage: highlight04mobile,
+		imageWidth: highlight04.width,
+		imageHeight: highlight04.height,
+		imagePosition: 'left'
+	}
+]
+---
+
+{
+	highlightBlocks.map((highlight, key) => (
+		<TextImage
+			id={`highlight-${key}`}
+			title={highlight.title}
+			text={highlight.text}
+			image={highlight.image}
+			imageWidth={highlight.imageWidth}
+			imageHeight={highlight.imageHeight}
+			mobileImage={highlight.mobileImage}
+			imagePosition={highlight.imagePosition}
+			classes={key === 0 ? '!pb-0' : key === highlightBlocks.length - 1 ? '!pt-0' : '!py-0'}
+		/>
+	))
+}
