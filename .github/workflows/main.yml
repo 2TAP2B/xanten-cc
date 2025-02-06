@@ -1,0 +1,37 @@
+name: Deploy Astro Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Yarn
+      run: npm install -g yarn
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build the Astro site
+      run: npm run build
+
+    - name: Deploy to NGINX via SCP
+      run: |
+        scp -r dist/* root@100.64.0.17:/matrix/static-files/public
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+
+
