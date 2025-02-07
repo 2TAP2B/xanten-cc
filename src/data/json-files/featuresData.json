@@ -7,7 +7,7 @@
 		},
 		{
 		  "title": "Chronologische Timeline",
-		  "icon": "language",
+		  "icon": "earth",
 		  "description": "Erlebe eine chronologische Timeline ohne störende Algorithmen. Beiträge werden in der Reihenfolge ihrer Veröffentlichung angezeigt, um Authentizität und Transparenz zu wahren.",
 		  "category": "Mastodon"
 		},
@@ -19,7 +19,7 @@
 		},
 		{
 		  "title": "Erweitertes Follow-System",
-		  "icon": "bolt",
+		  "icon": "earth",
 		  "description": "Folge Nutzern und Instanzen individuell oder entdecke neue Communities basierend auf gemeinsamen Interessen. Mastodon fördert gezielte Interaktionen.",
 		  "category": "Mastodon"
 		},
