@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro'
 import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
 import Hero from '../components/blocks/hero/PageHeader.astro'
 import Button from '../components/ui/Button.astro'
-
+import { Image } from 'astro:assets'
 // Content
 // - SEO
 const SEO = {
@@ -25,7 +25,7 @@ const header = {
 	<Hero title={header.title} text={header.text} />
 	<SidebarContent>
 		<div slot="sidebar" id="mastodon">
-			<img src="/apps/mastodon.svg" alt="Mastodon" class="w-24 h-24 object-cover rounded">
+			<img src="src/assets/apps/mastodon.svg" alt="Mastodon" class="w-24 h-24 object-cover rounded">
 			<h3>Mastodon</h3>
 			<p>
 				Mastodon ist ein dezentraler Mikroblogging-Dienst
