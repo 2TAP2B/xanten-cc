@@ -46,24 +46,20 @@ export const footerNavigationData: FooterData = {
 	},
 	footerColumns: [
 		{
-			category: 'Product',
+			category: 'Navigation',
 			subCategories: [
 				{
 					subCategory: 'Features',
 					subCategoryLink: '/features'
 				},
-				{
-					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
-				},
-				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
-				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
+	//			{
+	//				subCategory: 'FAQ',
+	//				subCategoryLink: '/faq'
+	//			},
+	//			{
+	//				subCategory: 'Changelog',
+	//				subCategoryLink: '/changelog'
+	//			},
 				{
 					subCategory: 'Terms',
 					subCategoryLink: '/terms'
@@ -71,24 +67,20 @@ export const footerNavigationData: FooterData = {
 			]
 		},
 		{
-			category: 'About us',
+			category: 'Über uns',
 			subCategories: [
 				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategory: 'Über uns',
+					subCategoryLink: '/about'
 				},
 				{
-					subCategory: 'News',
-					subCategoryLink: '/blog'
-				},
-				{
-					subCategory: 'Careers',
+					subCategory: 'Aktuelles',
 					subCategoryLink: '/blog'
 				}
 			]
 		},
 		{
-			category: 'Get in touch',
+			category: 'Kontakt',
 			subCategories: [
 				{
 					subCategory: 'Contact',
@@ -97,15 +89,11 @@ export const footerNavigationData: FooterData = {
 				{
 					subCategory: 'Support',
 					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Join us',
-					subCategoryLink: '/contact'
 				}
 			]
 		}
 	],
 	subFooter: {
-		copywriteText: ''
+		copywriteText: 'Copyright 2025 xanten.cc'
 	}
 }
