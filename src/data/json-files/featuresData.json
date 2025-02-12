@@ -1,25 +1,25 @@
 [
 		{
 		  "title": "Dezentralisiertes Netzwerk",
-		  "icon": "github",
+		  "icon": "network",
 		  "description": "Mastodon ermöglicht es dir, auf einer dezentralen Plattform zu interagieren. Du kannst zwischen verschiedenen Instanzen wechseln, ohne deine Community oder Inhalte zu verlieren.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Chronologische Timeline",
-		  "icon": "earth",
+		  "icon": "newspaper",
 		  "description": "Erlebe eine chronologische Timeline ohne störende Algorithmen. Beiträge werden in der Reihenfolge ihrer Veröffentlichung angezeigt, um Authentizität und Transparenz zu wahren.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Anpassbare Profile",
-		  "icon": "globe-solid",
+		  "icon": "user-round-pen",
 		  "description": "Gestalte dein Profil nach deinen Wünschen. Wähle ein Avatar, füge eine Bio hinzu und definiere deinen eigenen Stil, um dich von anderen abzuheben.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Erweitertes Follow-System",
-		  "icon": "earth",
+		  "icon": "user-plus",
 		  "description": "Folge Nutzern und Instanzen individuell oder entdecke neue Communities basierend auf gemeinsamen Interessen. Mastodon fördert gezielte Interaktionen.",
 		  "category": "Mastodon"
 		},
@@ -31,37 +31,37 @@
 		},
 		{
 		  "title": "Datenschutz und Kontrolle",
-		  "icon": "book",
+		  "icon": "globe-lock",
 		  "description": "Du hast volle Kontrolle über deine Daten. Entscheide, wer deine Beiträge sehen kann, ob du private oder öffentliche Nachrichten senden möchtest und mehr.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Erweitertes Blockieren und Stummschalten",
-		  "icon": "book",
+		  "icon": "message-circle-off",
 		  "description": "Schütze deine Benutzererfahrung, indem du bestimmte Nutzer blockierst oder stumm schaltest. So behältst du die Kontrolle über deine Interaktionen.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Open-Source-Software",
-		  "icon": "book",
+		  "icon": "git-fork",
 		  "description": "Mastodon ist vollständig Open-Source. Das bedeutet, dass jeder den Code einsehen, anpassen und zur Weiterentwicklung beitragen kann.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Cross-Platform Integration",
-		  "icon": "book",
+		  "icon": "cross",
 		  "description": "Interagiere über verschiedene Plattformen hinweg. Mastodon bietet eine nahtlose Integration mit anderen sozialen Netzwerken und sogar der Möglichkeit, mit Nutzern aus anderen Föderationen zu kommunizieren.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Einfache Moderation",
-		  "icon": "book",
+		  "icon": "message-circle-heart",
 		  "description": "Die Moderation auf Mastodon ist transparent und benutzerfreundlich. Instanz-Admins und -Moderator*innen können problemlos Richtlinien setzen, Inhalte prüfen und die Community sicher und respektvoll halten.",
 		  "category": "Mastodon"
 		},
 		{
 		  "title": "Barrierefreiheit",
-		  "icon": "book",
+		  "icon": "message-circle-heart",
 		  "description": "Mastodon bietet umfangreiche Barrierefreiheitsfunktionen. So können auch Nutzer*innen mit Einschränkungen problemlos auf die Plattform zugreifen und interagieren.",
 		  "category": "Mastodon"
 		},
@@ -71,12 +71,140 @@
 		  "description": "Verwalte deine Benachrichtigungen, um nur die wichtigen Updates zu erhalten. Du kannst Benachrichtigungen nach Instanzen, Hashtags oder bestimmten Themen anpassen.",
 		  "category": "Mastodon"
 		},
-		{
-		  "title": "Unterstützung von Multimedialen Inhalten",
-		  "icon": "book",
-		  "description": "Teile deine Videos, Fotos und Audiodateien in einer benutzerfreundlichen Art und Weise. Mastodon unterstützt verschiedene Dateiformate und erleichtert das Posten von Medieninhalten.",
-		  "category": "Mastodon"
-		},
+			{
+				"title": "Dezentrale Kommunikation",
+				"icon": "network",
+				"description": "Matrix ermöglicht eine dezentrale Kommunikation ohne zentrale Kontrolle. Nachrichten und Daten werden über mehrere Server verteilt, wodurch Ausfälle minimiert werden.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Ende-zu-Ende-Verschlüsselung",
+				"icon": "lock",
+				"description": "Dank starker Ende-zu-Ende-Verschlüsselung bleiben deine Nachrichten, Dateien und Anrufe privat und sicher – selbst der Serverbetreiber kann nicht darauf zugreifen.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Federation-Unterstützung",
+				"icon": "server",
+				"description": "Verbinde dich mit anderen Matrix-Servern, um nahtlos über verschiedene Netzwerke hinweg zu kommunizieren. Jede Instanz kann mit anderen Servern interagieren.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Brücken zu anderen Plattformen",
+				"icon": "link",
+				"description": "Mit Matrix kannst du bestehende Messenger wie WhatsApp, Telegram oder Discord über Brücken integrieren und alle Nachrichten an einem Ort verwalten.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Open-Source und selbstgehostet",
+				"icon": "git-fork",
+				"description": "Matrix und der Element-Client sind Open-Source, sodass du deine eigene Instanz hosten kannst. Dies bietet volle Kontrolle über deine Daten und Sicherheit.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Vielseitige Kommunikationsmöglichkeiten",
+				"icon": "message-circle",
+				"description": "Ob Textnachrichten, Sprach- und Videoanrufe oder Dateiübertragungen – Matrix unterstützt vielseitige Kommunikationswege für individuelle und Gruppenchats.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Anpassbare Räume und Berechtigungen",
+				"icon": "user-cog",
+				"description": "Erstelle öffentliche oder private Räume, verwalte Mitglieder und setze Berechtigungen individuell, um die Kontrolle über deine Community zu behalten.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Verifizierte Identitäten",
+				"icon": "shield-check",
+				"description": "Überprüfe Kontakte mit kryptografischen Schlüsselvergleichen, um sicherzustellen, dass du mit der richtigen Person kommunizierst.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Cross-Platform Nutzung",
+				"icon": "cross",
+				"description": "Nutze Matrix auf verschiedenen Geräten und Betriebssystemen, darunter Web, Desktop und Mobile, für eine nahtlose Kommunikation überall.",
+				"category": "Matrix"
+			},
+			{
+				"title": "Das Matrix Protokoll",
+				"icon": "building",
+				"description": "Das Matrix-Protokoll ist ein dezentraler und verschlüsselter Chat-Dienst, der von vielen verschiedenen Apps unterstützt wird. Dadurch bietet es den Nutzern eine große Freiheit, da sie zwischen verschiedenen Anwendungen wählen können, die alle dasselbe Protokoll nutzen.",
+				"category": "Matrix"
+			},
+
+				{
+					"title": "Sichere Passwortverwaltung",
+					"icon": "key-round",
+					"description": "Vaultwarden hilft dir, starke und einzigartige Passwörter für alle deine Konten zu speichern und zu verwalten, um deine Online-Sicherheit zu maximieren.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Selbstgehostete Lösung",
+					"icon": "server",
+					"description": "Betreibe deinen eigenen Vaultwarden-Server, um vollständige Kontrolle über deine Passwörter und Daten zu behalten – ohne Abhängigkeit von Drittanbietern.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Ende-zu-Ende-Verschlüsselung",
+					"icon": "lock",
+					"description": "Deine Daten werden mit starker Ende-zu-Ende-Verschlüsselung geschützt, sodass nur du darauf zugreifen kannst – nicht einmal der Serverbetreiber.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Automatisches Ausfüllen",
+					"icon": "wand",
+					"description": "Mit Browser- und Mobil-Apps kannst du Login-Daten automatisch ausfüllen lassen, um Zeit zu sparen und Tippfehler zu vermeiden.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Zwei-Faktor-Authentifizierung (2FA)",
+					"icon": "shield-check",
+					"description": "Aktiviere 2FA, um eine zusätzliche Sicherheitsebene für deine Konten zu schaffen und dich vor unbefugtem Zugriff zu schützen.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Teilen von Zugangsdaten",
+					"icon": "share",
+					"description": "Gib Passwörter sicher an Familienmitglieder oder Teamkollegen weiter, ohne sie in unsicheren Chats oder Notizen speichern zu müssen.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Passwort-Generator",
+					"icon": "sparkle",
+					"description": "Erstelle mit Vaultwarden starke, zufällige Passwörter, um dich vor Datenlecks und Angriffen durch unsichere oder wiederverwendete Passwörter zu schützen.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Plattformübergreifend nutzbar",
+					"icon": "monitor-smartphone",
+					"description": "Greife auf deine Passwörter von jedem Gerät aus zu – egal ob Desktop, Smartphone oder Tablet. Vaultwarden funktioniert überall.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Open-Source und leichtgewichtig",
+					"icon": "code",
+					"description": "Vaultwarden basiert auf Bitwarden, ist Open-Source und ressourcenschonend, wodurch es ideal für den Betrieb auf kleinen Servern oder Raspberry Pi ist.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Notfallzugriff",
+					"icon": "bell",
+					"description": "Bestimme vertrauenswürdige Personen, die im Notfall Zugriff auf deine Passwörter erhalten können – eine zusätzliche Sicherheit für unvorhersehbare Situationen.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Bitwarden App Kompatibel",
+					"icon": "smartphone",
+					"description": "Die offiziellen Bitwarden-Apps unterstützen den Vaultwarden-Server, sodass du deine Passwörter problemlos über die gleiche benutzerfreundliche Oberfläche auf allen Geräten verwalten kannst.",
+					"category": "Vaultwarden"
+				},
+				{
+					"title": "Browser Plugin",
+					"icon": "plug",
+					"description": "Mit dem automatischen Ausfüllen im Browser erleichterst du dir den Alltag, indem Passwörter sicher und schnell in deine Login-Formulare eingefügt werden.",
+					"category": "Vaultwarden"
+				},
+			
 	  
 	{
 		"title": "Real-Time Analytics",

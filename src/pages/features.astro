@@ -11,8 +11,8 @@ import CTA from '../components/blocks/CTA/BasicDark.astro'
 import featuresData from '../data/json-files/featuresData.json'
 // - Feature Categories
 const featuresMastodon = featuresData.filter((feature) => feature.category === 'Mastodon')
-const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
-const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
+const featuresVaultwarden = featuresData.filter((feature) => feature.category === 'Vaultwarden')
+const featuresMatrix = featuresData.filter((feature) => feature.category === 'Matrix')
 const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
 const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
 
@@ -25,8 +25,8 @@ const SEO = {
 }
 // - Page Header
 const header = {
-	title: 'Why you and your team will <strong>love</strong> foxi.',
-	text: 'Streamline your tasks, protect your data, and enjoy working with our tools!'
+	title: 'Hier findest du alle <strong>Features</strong> unserer Apps.',
+	text: 'Wo liegen die Vorteile dieser Apps, was sind die unterschieden? Antworten findest du hier!'
 }
 ---
 
@@ -40,15 +40,19 @@ const header = {
 		data={featuresMastodon}
 	/>
 	<Feature
-		title="Efficiency Unleashed"
-		text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
-		data={featuresSecurity}
+	    image="/apps/matrix.svg"
+		title="Matrix"
+		text="Matrix ist ein offenes, dezentrales Kommunikationsprotokoll für sichere und interoperable Echtzeitnachrichten, VoIP und Videoanrufe. Es ermöglicht Nutzern, über verschiedene Server hinweg zu kommunizieren, während Ende-zu-Ende-Verschlüsselung für Datenschutz sorgt."
+		data={featuresMatrix}
+		imageLink="/apps#matrix"
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="Ultimate Data Protection"
-		text="Keep your data safe with top-notch security measures and real-time threat detection."
-		data={featuresProductivity}
+	    image="/apps/vaultwarden.svg"
+		title="Vaultwarden"
+		text="Vaultwarden ist eine leichtgewichtige, selbstgehostete Alternative zu Bitwarden, einem sicheren Open-Source-Passwort-Manager. Es ermöglicht die verschlüsselte Speicherung und Verwaltung von Passwörtern sowie das sichere Teilen von Zugangsdaten, ohne auf externe Cloud-Dienste angewiesen zu sein."
+		data={featuresVaultwarden}
+		imageLink="/apps#vaultwarden"
 	/>
 	<Feature
 		title="Seamless Connectivity"
