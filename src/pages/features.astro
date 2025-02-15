@@ -13,8 +13,8 @@ import featuresData from '../data/json-files/featuresData.json'
 const featuresMastodon = featuresData.filter((feature) => feature.category === 'Mastodon')
 const featuresVaultwarden = featuresData.filter((feature) => feature.category === 'Vaultwarden')
 const featuresMatrix = featuresData.filter((feature) => feature.category === 'Matrix')
-const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
-const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
+const featuresSignal = featuresData.filter((feature) => feature.category === 'Signal')
+const featuresPingvin = featuresData.filter((feature) => feature.category === 'Pingvin')
 
 // Content
 // - SEO
@@ -40,7 +40,7 @@ const header = {
 		data={featuresMastodon}
 	/>
 	<Feature
-	    image="/apps/matrix.svg"
+	    image="/apps/element.svg"
 		title="Matrix"
 		text="Matrix ist ein offenes, dezentrales Kommunikationsprotokoll für sichere und interoperable Echtzeitnachrichten, VoIP und Videoanrufe. Es ermöglicht Nutzern, über verschiedene Server hinweg zu kommunizieren, während Ende-zu-Ende-Verschlüsselung für Datenschutz sorgt."
 		data={featuresMatrix}
@@ -55,15 +55,18 @@ const header = {
 		imageLink="/apps#vaultwarden"
 	/>
 	<Feature
-		title="Seamless Connectivity"
-		text="Effortlessly connect your favorite apps and automate workflows for a smoother workday."
-		data={featuresIntegrations}
+	    image="/apps/signal.svg"
+		title="Signal"
+		text="Signal ist ein sicherer Messenger-Dienst, der Ende-zu-Ende-Verschlüsselung für Nachrichten, Anrufe und Medien bietet. Die Open-Source-App wird von der gemeinnützigen Signal Foundation betrieben und legt großen Wert auf Datenschutz, indem sie keine Nutzerdaten speichert oder weitergibt."
+		data={featuresSignal}
 		classes="bg-neutral-50 dark:bg-neutral-900"
+		imageLink="/apps#signal"
 	/>
 	<Feature
-		title="24/7 Expert Help"
-		text="Our friendly support team is always here to assist you with any questions or issues."
-		data={featuresSupport}
+	    image="/apps/pingvin-share.svg"
+		title="Pingvin Share"
+		text="Pingvin Share ist ein Open-Source-Dienst zum sicheren Teilen von Dateien, ähnlich wie WeTransfer."
+		data={featuresPingvin}
+		imageLink="/apps#pingvin"
 	/>
-	<CTA />
 </Layout>

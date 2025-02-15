@@ -38,10 +38,10 @@ export const navigationBarData: NavData = {
 		text: 'xanten.cc'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-	//	{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
+		{ name: 'Start', link: '/' },
+		{ name: 'Funktionen', link: '/features' },
 		{ name: 'Apps', link: '/apps' },
+		{ name: 'Über', link: '/about' },
 		{ name: 'Blog', link: '/blog' },
 	//	{
 	//		name: 'Resources',

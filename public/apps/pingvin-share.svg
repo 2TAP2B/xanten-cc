@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="pingvin-share.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs4">
+	
+	
+	
+	
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   id="namedview4"
+   pagecolor="#505050"
+   bordercolor="#ffffff"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="0.59765625"
+   inkscape:cx="353.88235"
+   inkscape:cy="38.48366"
+   inkscape:window-width="1600"
+   inkscape:window-height="863"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#46509E;}
+	.st1{fill:#37474F;}
+	.st2{fill:#FFFFFF;}
+</style>
+<ellipse
+   class="st0"
+   cx="256"
+   cy="255.2"
+   rx="256"
+   ry="246.60001"
+   id="ellipse1"
+   style="fill:#8e5fd3;fill-opacity:1" /><ellipse
+   class="st1"
+   cx="256"
+   cy="220.39999"
+   rx="126.8"
+   ry="112.4"
+   id="ellipse2" /><path
+   class="st1"
+   d="M 382.8,469.5 C 362.9,481 316,504.4 252.2,503.5 209,502.8 166.6,491.1 129.1,469.5 V 222.9 h 253.7 z"
+   id="path2" /><path
+   class="st2"
+   d="m 357.7,224.5 v 258.3 c -64.9,27.6 -138.2,27.6 -203.1,0 V 224.5 c 0,-51.9 45.5,-93.9 101.6,-93.9 56.1,0 101.5,42 101.5,93.9 z"
+   id="path3" /><polygon
+   class="st0"
+   points="205.3,242.9 306.7,242.9 256,287.9 "
+   id="polygon3"
+   style="fill:#8e5fd3;fill-opacity:1" /><ellipse
+   class="st1"
+   cx="205.3"
+   cy="209.2"
+   rx="12.7"
+   ry="11.2"
+   id="ellipse3" /><ellipse
+   class="st1"
+   cx="306.70001"
+   cy="209.2"
+   rx="12.7"
+   ry="11.2"
+   id="ellipse4" /><path
+   class="st1"
+   d="m 357.5,226 c 0,-21.7 -19.9,-39.3 -44.4,-39.3 -24.5,0 -44.4,17.6 -44.4,39.3 0,5.9 1.5,11.7 4.3,16.9 h -34 c 2.8,-5.2 4.3,-11 4.3,-16.9 0,-21.7 -19.9,-39.3 -44.4,-39.3 -24.5,0 -44.4,17.6 -44.4,39.3 l -25.4,-5.6 C 129.1,158.4 186,108 256,108 c 70,0 126.8,50.3 126.8,112.4 z"
+   id="path4" />
+</svg>

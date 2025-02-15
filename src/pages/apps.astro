@@ -23,6 +23,9 @@ const header = {
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
+
+<!-- Mastodon -->
+
 	<SidebarContent>
 		<div slot="sidebar" id="mastodon">
 			<img src="/apps/mastodon.svg" alt="Mastodon" class="w-24 h-24 object-cover rounded">
@@ -66,6 +69,7 @@ const header = {
 		</a>
 		
 	</SidebarContent>
+<!-- Matrix -->
 	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
 		<div slot="sidebar" id="matrix">
 			<img src="/apps/matrix.svg" alt="Matrix / Element" class="w-24 h-24 object-cover rounded">
@@ -109,7 +113,7 @@ const header = {
 	
 		</a>
 	</SidebarContent>
-
+<!-- Vaultwarden -->
 	<SidebarContent>
 		<div slot="sidebar" id="vaultwarden">
 			<img src="/apps/vaultwarden.svg" alt="Vaultwarden" class="w-24 h-24 object-cover rounded">
@@ -149,6 +153,39 @@ const header = {
 	
 		</a>
 		
+	</SidebarContent>
+<!-- Signal -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar" id="signal">
+			<img src="/apps/signal.svg" alt="Signal" class="w-24 h-24 object-cover rounded">
+			<h3>Signal</h3>
+			<p>
+				Signal ist ein sicherer Messenger-Dienst, der Ende-zu-Ende-Verschlüsselung für Nachrichten, Anrufe und Medien bietet. 
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>Lade dir Signal direkt runter</h4>
+			<p>
+			</p>
+			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+				<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Google%20Play-4287F5.svg?style=for-the-badge&logo=google-play&logoColor=white" alt="Install on Google Play" />
+				</a>
+				<a href="https://apps.apple.com/us/app/signal-private-messenger/id874139669" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/iOS-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="Install on iOS" />
+				</a>
+				<a href="https://github.com/signalapp" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Mastodon GitHub Repository" />
+				</a>
+				<a href="https://signal.org/download/" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Alternative%20Apps-6A5ACD.svg?style=for-the-badge&logo=signal&logoColor=white" alt="Alternative Mastodon Apps" />
+				</a>
+			</div>
+			<p></p>
+			<p>
+				Die Open-Source-App wird von der gemeinnützigen Signal Foundation betrieben und legt großen Wert auf Datenschutz, indem sie keine Nutzerdaten speichert oder weitergibt.
+			</p>
+		</div>
 	</SidebarContent>
 
 </Layout>

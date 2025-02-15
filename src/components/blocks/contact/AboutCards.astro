@@ -26,21 +26,21 @@ type Props = {
 }
 const { classes, team = [
 	{
-		name: "Max Mustermann",
-		role: "Projektleiter",
-		image: "/images/max.jpg",
-		description: "Max kümmert sich um die Koordination und Planung aller Aktivitäten. Er sorgt dafür, dass alle Prozesse reibungslos ablaufen und das Team optimal zusammenarbeitet.",
+		name: "Tobias Steltner",
+		role: "Initiator",
+		image: "/profile.png",
+		description: "Gründer von xanten.cc und verantwortlich für die gesamte Infrastruktur.",
 		contacts: [
-			{ type: "icon", link: "mailto:max@example.com" }
+			{ type: "bell", link: "mailto:erika@example.com" }
 		]
 	},
 	{
-		name: "Erika Musterfrau",
-		role: "Entwicklerin",
+		name: "Du vielleicht?",
+		role: "Mitwirkende",
 		image: "/logo.svg",
-		description: "Erika ist verantwortlich für die technische Umsetzung des Projekts. Sie entwickelt innovative Lösungen und sorgt für eine stabile Codebasis.",
+		description: "Du kannst dir vorstellen hier im Projekt mit zu machen? Melde dich gerne bei mir.",
 		contacts: [
-			{ type: "icon", link: "mailto:erika@example.com" }
+			{ type: "icon", link: "mailto:max@example.com" }
 		]
 	}
 ] } = Astro.props
@@ -49,17 +49,18 @@ const { classes, team = [
 <Section id="about" classes={`${classes} bg-gray-100 py-16`}>
 	<Row>
 		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-			<h2 class="text-balance text-4xl font-bold text-gray-800">About <strong>Hilfe!</strong></h2>
+			<h2 class="text-balance text-4xl font-bold text-gray-800">Über www.<strong>xanten</strong>.cc</h2>
 			<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-				Willkommen bei Hilfe! Unser Ziel ist es, Menschen zusammenzubringen und Unterstützung zu bieten. Egal, ob du Fragen hast oder aktiv mitwirken möchtest – wir sind für dich da!
-			</p>
+Die Idee kam mir Ende 2024 und im Frühjahr 2025 nahm das Projekt immer mehr Form an und momentan sieht es so aus. 
+<p><h2 class="text-balance text-3xl font-bold text-gray-800">Unser <strong>Team</strong> besteht aus:</h2></p>		</p>
+
 		</Col>
 	</Row>
 	<Row>
 		{team.map(member => (
-			<Col span="3" classes="flex flex-col gap-6">
+			<Col span="3" classes="justify-center flex flex-col gap-6">
 				<Card classes="text-center dark:!bg-neutral-800/50 p-6 shadow-lg rounded-lg">
-					<img src={member.image} alt={member.name} class="w-24 h-24 mx-auto rounded-full border-4 border-fuchsia-500" />
+					<img src={member.image} alt={member.name} class="w-48 h-48 mx-auto rounded-lg hover:scale-105 hover:bg-gray-300 transition-transform duration-300" />
 					<h3 class="mt-4 text-xl font-semibold text-gray-900">{member.name}</h3>
 					<p class="text-sm text-blue-600 font-medium">{member.role}</p>
 					<p class="mt-2 text-gray-700">{member.description}</p>
@@ -73,4 +74,36 @@ const { classes, team = [
 			</Col>
 		))}
 	</Row>
+	<br></br>
+	<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+		<h2 class="text-balance text-4xl font-bold text-gray-800">Und unsere <strong>Idee</strong> ist folgende:</h2>
+
+	<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+		
+		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
+			Ein Thema, das mich besonders beschäftigt, ist der Umgang mit unseren Daten im Internet. Oft bezahlen wir für Online-Dienste nicht mit Geld, sondern mit unseren persönlichen Informationen – ob wir wollen oder nicht. Häufig geschieht das so unauffällig, dass man es gar nicht bemerkt. Dabei sollte uns klar sein: Dienste wie Facebook oder Google sind keine gemeinnützigen Organisationen. Sie bieten keine kostenlosen Services wie Instagram oder Google Cloud an, ohne Gegenleistung. Die Währung, mit der wir hier zahlen, sind unsere Daten.		</p>
+		
+		<h4 class="text-balance text-2xl font-bold text-gray-800">Ein häufiges <strong>Argument</strong> das ich höre lautet:</h4>
+	
+		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
+			„Ich habe doch nichts zu verbergen, mir ist das egal.“ Das mag für manche stimmen, aber für mich klingt es eher danach, als wüssten viele nicht, was im Hintergrund wirklich passiert.		</p>
+	
+		<h4 class="text-balance text-2xl font-bold text-gray-800">Es ist wie mit dem<strong> Gemüse </strong>im Garten:</h4>
+	
+		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
+			Natürlich kann ich die Tomaten im Supermarkt kaufen – sie sind in Ordnung. Aber die selbst angebauten Tomaten aus dem eigenen Garten schmecken einfach viel besser.<br></br> Genauso ist es mit digitalen Diensten: Die fertigen Lösungen, die uns angeboten werden, mögen bequem sein, aber die Tools und Plattformen, die wir selbst gestalten und kontrollieren, bieten uns eine viel höhere Qualität und Kontrolle über unsere Daten und Privatsphäre.		</p>
+	
+		<h4 class="text-balance text-2xl font-bold text-gray-800">Meine<strong> Idee </strong>ist,</h4>
+	
+		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
+			 Alternativen zu einigen gängigen Diensten anzubieten, die sicher und frei von kommerziellen Hintergedanken sind. Zum Beispiel ein sicherer Chatserver (Matrix), ein Passwortmanager (Vaultwarden) und ein Dateitransferdienst (Pingvin Share). <br></br>Diese Lösungen basieren auf Open-Source-Projekten und können genutzt werden, ohne dass unsere Daten verkauft oder analysiert werden.
+		</p>
+	
+		<h4 class="text-balance text-2xl font-bold text-gray-800"><strong>Zusätzlich</strong> möchte ich</h4>
+	
+		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
+			 mit diesem Projekt Menschen sensibilisieren und schulen. Es geht mir darum, Bewusstsein zu schaffen und dazu anzuregen, sich Gedanken darüber zu machen, was im Internet mit unseren Daten passiert. Dabei liegt mein Fokus auf der Region Xanten. Ich möchte nicht nur online aufklären, sondern auch vor Ort Gespräche führen und Wissen teilen.
+		</p>
+	</Col>
+	
 </Section>
