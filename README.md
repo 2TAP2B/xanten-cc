@@ -15,7 +15,7 @@ Foxi is a free, highly customizable, and production-ready template for Astro, ut
 
 ![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/pagespeedscore.svg)
 
-### Features
+### Features test
 
 - **Built with Tailwind CSS:** Powered by Tailwind CSS for rapid UI development and responsive design.
 - **Perfect Scores in PageSpeed Insights:** Achieve perfect 100s for both desktop and mobile performance.
