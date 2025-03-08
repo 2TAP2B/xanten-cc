@@ -21,7 +21,7 @@ export const socialLinks: SocialLink[] = [
 	},
 	{
 		name: 'matrix',
-		link: 'https://element.xanten.cc',
+		link: 'https://element.xanten.cc/',
 		icon: 'element'
 	}
 ]
