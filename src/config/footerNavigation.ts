@@ -89,6 +89,10 @@ export const footerNavigationData: FooterData = {
 				{
 					subCategory: 'Support',
 					subCategoryLink: '/contact'
+				},
+				{
+					subCategory: 'Status',
+					subCategoryLink: 'https://status.xanten.cc'
 				}
 			]
 		}

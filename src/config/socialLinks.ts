@@ -10,18 +10,18 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
 	{
-		name: 'facebook',
-		link: '/',
+		name: 'mastodon',
+		link: 'https://social.xanten.cc',
 		icon: 'mastodon-light'
 	},
 	{
 		name: 'twitter',
-		link: '/',
+		link: 'https://github.com/2TAP2B/foxi-xanten',
 		icon: 'github'
 	},
 	{
-		name: 'discord',
-		link: '/',
-		icon: 'discord-icon'
+		name: 'matrix',
+		link: 'https://element.xanten.cc/',
+		icon: 'element'
 	}
 ]
