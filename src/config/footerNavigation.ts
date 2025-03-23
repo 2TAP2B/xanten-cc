@@ -94,6 +94,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: 'Copyright 2025 xanten.cc'
+		copywriteText: ' Copyright 2025 xanten.cc'
 	}
 }
