@@ -1,0 +1,70 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import FormHero from '../components/blocks/hero/ContactHero.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+import AboutCards from '../components/blocks/contact/AboutCards.astro'
+import SocialProof from '../components/blocks/socialproof/Basic.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'xanten.cc | Selbstbestimmt im digitalen Raum',
+	description:
+		'Wir bieten digitale Dienste für ein soziales Miteinander und stärken die Nachbarschaft in Xanten. '
+}
+// - Page Header
+const header = {
+	title: 'xanten.cc | Selbstbestimmt im digitalen Raum',
+	text: "Erfahre mehr über <strong>xanten.cc</strong>"
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <div class="min-h-screen flex flex-col justify-between">
+    <main class="flex-1 flex justify-center items-center mt-12 mb-12 px-8 py-8">
+      <div class="max-w-3xl text-center">
+        <!-- Impressum Section -->
+        <section id="impressum" class="mb-12">
+          <h1 class="text-3xl font-bold mb-4">Impressum</h1>
+          <p class="mb-4">Max Mustermann<br />
+          Musterstraße 111<br />
+          Gebäude 44<br />
+          90210 Musterstadt</p>
+  
+          <h2 class="text-2xl font-semibold mt-8 mb-2">Kontakt</h2>
+          <p class="mb-4">Telefon: +49 (0) 123 44 55 66<br />
+          Telefax: +49 (0) 123 44 55 99<br />
+          E-Mail: mustermann@musterfirma.de</p>
+  
+          <h2 class="text-2xl font-semibold mt-8 mb-2">Redaktionell verantwortlich</h2>
+          <p class="mb-4">Beate Beispielhaft<br />
+          Musterstraße 110<br />
+          90210 Musterstadt</p>
+  
+          <p class="mt-8">
+            Quelle: <a href="https://www.e-recht24.de/impressum-generator.html" class="text-blue-500 hover:underline">https://www.e-recht24.de/impressum-generator.html</a>
+          </p>
+        </section>
+  
+        <!-- Datenschutzerklärung Section -->
+        <section id="datenschutzerklaerung">
+          <h1 class="text-3xl font-bold mb-4">Datenschutzerklärung</h1>
+          <p class="mb-4">
+            Hier kannst du nun deine Datenschutzerklärung einfügen. <br />
+            Beispiel: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum mauris in nulla vulputate, ac porttitor lorem malesuada. Aenean auctor turpis in nisi cursus, ut fermentum enim aliquet.
+          </p>
+          <p class="mb-4">
+            Weiterer Abschnitt: Integer nec suscipit arcu, sed mollis libero. Nam a sapien a lectus tincidunt interdum. Duis fringilla erat ac nisi auctor, at aliquam libero euismod.
+          </p>
+          <p class="mt-8">
+            Weitere Informationen findest du auf unserer <a href="/impressum" class="text-blue-500 hover:underline">Impressum-Seite</a>.
+          </p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+</Layout>

@@ -49,6 +49,10 @@ export const footerNavigationData: FooterData = {
 			category: 'Navigation',
 			subCategories: [
 				{
+					subCategory: 'Start',
+					subCategoryLink: '/'
+				},
+				{
 					subCategory: 'Features',
 					subCategoryLink: '/features'
 				},
@@ -61,8 +65,8 @@ export const footerNavigationData: FooterData = {
 	//				subCategoryLink: '/changelog'
 	//			},
 				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
+					subCategory: 'Apps',
+					subCategoryLink: '/apps'
 				}
 			]
 		},
@@ -76,7 +80,11 @@ export const footerNavigationData: FooterData = {
 				{
 					subCategory: 'Aktuelles',
 					subCategoryLink: '/blog'
-				}
+				},
+				{
+					subCategory: 'Impressum',
+					subCategoryLink: '/impress'
+				},
 			]
 		},
 		{
