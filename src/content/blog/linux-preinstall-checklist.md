@@ -3,7 +3,7 @@ title: 'So bereitest du dein Gerät richtig vor'
 pubDate: 2025-03-27T05:00:00Z
 description: "Du möchtest Linux im Repair Café installieren oder ein Dual-Boot-System einrichten? Diese Checkliste hilft dir, dein Gerät optimal vorzubereiten!"
 author: 'Tobias'
-image: '/blog/linux-install.png'
+image: '/blog/prepare-cover.png'
 tags: ['linux', 'repair café', 'installation', 'how-to']
 ---
 

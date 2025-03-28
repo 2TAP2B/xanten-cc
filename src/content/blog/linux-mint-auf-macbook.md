@@ -1,11 +1,13 @@
 ---
 title: 'Linux Mint auf MacBookAir mit Intel i7'
 pubDate: 2025-03-26T05:00:00Z
-description: "Wie man auch mit älterer Hardware noch produktiv sein kann: Ich habe mein 2015er MacBook Air mit Linux Mint ausgestattet und nutze es nun für alltägliche Aufgaben – von Browsing bis Homelab-Monitoring. Ein Erfahrungsbericht über Installation, Performance und Akkulaufzeit."
+description: "Ich habe mein 2015er MacBook Air mit Linux Mint ausgestattet und nutze es nun für alltägliche Aufgaben – von Browsing bis Homelab-Monitoring."
 author: 'Tobias'
-image: '/blog/apple-install.png'
+image: '/blog/mint-cover.png'
 tags: ['linux', 'macbook']
 ---
+
+![linux mint desktop view](/blog/mint-01.png)
 
 Alte Hardware mit Linux zu nutzen, ohne große Abstriche bei der Leistung zu machen – das ist tatsächlich möglich. Vorausgesetzt, die Hardware ist nicht mehr als 10-15 Jahre alt, denn ansonsten macht es einfach keinen Spaß mehr.
 <br></br>
@@ -17,9 +19,12 @@ Deshalb habe ich mich entschieden, auf diesem Gerät Linux Mint zu installieren,
 
 ### Andere Linux Distros
 Zur Information: Auf meinem Haupt-Desktop-PC läuft Fedora 41, auf meinen Servern betreibe ich Proxmox mit einigen Ubuntu-VMs. Außerdem habe ich viel Zeit mit Ubuntu auf dem Desktop, Pop!_OS und MX Linux verbracht.
+
 ### Installation
 Es war also höchste Zeit, Linux Mint genauer unter die Lupe zu nehmen. Die Installation auf meinem MacBook war überraschend unspektakulär und verlief ohne Probleme. Die meisten Hardwarekomponenten wurden sofort erkannt, bis auf den WLAN-Chip, der leider nicht direkt funktionierte.
-<br></br>
+
+![linux mint installer](/blog/mint-02.png)
+
 Dank eines Smartphones, eines USB-Kabels und Hotspot-Tethering konnte ich jedoch den passenden Treiber installieren, und schon war auch das WLAN funktionsfähig.
 <br></br>
 Das Gerät habe ich für einen zweistelligen Betrag auf einer Gebrauchtwarenplattform ergattert. Trotz des Alters hält der Akku je nach Nutzung immer noch 5-7 Stunden, was wirklich bemerkenswert ist.

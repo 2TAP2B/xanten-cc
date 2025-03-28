@@ -25,6 +25,11 @@ type Props = {
 	publishDate?: string
 }
 const { tags, title, author, publishDate } = Astro.props
+
+// Format publishDate to German locale
+const formattedDate = publishDate
+	? new Date(publishDate).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })
+	: null;
 ---
 
 <Section id="post-intro" classes="bg-neutral-50 dark:bg-neutral-900">
@@ -38,10 +43,10 @@ const { tags, title, author, publishDate } = Astro.props
 				{
 					author ? (
 						<p class="page-header__text">
-							Written by, {author} {publishDate && 'on ' + publishDate}
+							Geschrieben von {author} {formattedDate && 'am ' + formattedDate}
 						</p>
 					) : (
-						publishDate && <p class="page-header__text">Published on, {publishDate}</p>
+						formattedDate && <p class="page-header__text">Published on {formattedDate}</p>
 					)
 				}
 			</header>
