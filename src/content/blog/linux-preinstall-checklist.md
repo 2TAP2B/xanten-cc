@@ -21,8 +21,12 @@ Wenn du mit uns im Repair Café deinen Laptop mit Linux neu installieren oder al
 ### 2. Verschlüsselte Datenträger prüfen  
 
 🛑 **BitLocker & Verschlüsselung beachten!**  
-- Falls deine Windows-Partition mit **BitLocker** verschlüsselt ist, diese bitte **vorher entschlüsseln** oder den **Wiederherstellungsschlüssel** bereithalten.  
-- Falls du LUKS, VeraCrypt oder andere Software nutzt, kläre vorher ab, ob und wie die Daten erhalten bleiben können.  
+- Falls deine Windows-Partition mit **BitLocker** verschlüsselt ist, diese bitte **vorher entschlüsseln** oder den **Wiederherstellungsschlüssel** bereithalten. Das heißt also Bitlocker muss deaktiviert werden.
+- Falls du LUKS, VeraCrypt oder andere Software nutzt, kläre vorher ab, ob und wie die Daten erhalten bleiben können.
+
+Ein Dual-Boot-System kann generell nicht installiert werden, wenn die Windows-Festplatte verschlüsselt ist. Die Verschlüsselung muss deaktiviert werden, oder es muss ein zweiter Datenträger vorhanden sein, auf dem die Linux-Installation durchgeführt werden kann.
+
+[**Hier gibt es weitere Informationen dazu**](https://help.ubuntu.com/wip/bitlocker/)
 
 #
 > ⚠️ **Achtung**  
