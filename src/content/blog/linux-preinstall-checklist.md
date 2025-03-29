@@ -17,12 +17,11 @@ Wenn du mit uns im Repair Café deinen Laptop mit Linux neu installieren oder al
 - Persönliche Dateien (Dokumente, Bilder, Musik, Passwörter) auf eine **externe Festplatte oder in die Cloud kopieren**.  
 - Notiere dir deinen Windowsproduktschlüssel.
 
-
 ### 2. Verschlüsselte Datenträger prüfen  
 
-🛑 **BitLocker & Verschlüsselung beachten!**  
-- Falls deine Windows-Partition mit **BitLocker** verschlüsselt ist, diese bitte **vorher entschlüsseln** oder den **Wiederherstellungsschlüssel** bereithalten. Das heißt also Bitlocker muss deaktiviert werden.
-- Falls du LUKS, VeraCrypt oder andere Software nutzt, kläre vorher ab, ob und wie die Daten erhalten bleiben können.
+🛑 BitLocker & Co. deaktivieren!
+
+Falls deine Festplatte mit BitLocker verschlüsselt ist, schalte die Verschlüsselung aus!
 
 Ein Dual-Boot-System kann generell nicht installiert werden, wenn die Windows-Festplatte verschlüsselt ist. Die Verschlüsselung muss deaktiviert werden, oder es muss ein zweiter Datenträger vorhanden sein, auf dem die Linux-Installation durchgeführt werden kann.
 
@@ -30,16 +29,20 @@ Ein Dual-Boot-System kann generell nicht installiert werden, wenn die Windows-Fe
 
 #
 > ⚠️ **Achtung**  
-Ohne den passenden **BitLocker-Wiederherstellungsschlüssel** kann Windows nicht mehr gestartet werden!  
+Falls deine Festplatte mit BitLocker verschlüsselt ist, stelle sicher, dass du den Wiederherstellungsschlüssel hast. Ohne diesen kannst du deine Daten nicht entschlüsseln!
+
+### 3. Netzteil nicht vergessen!
+
+⚡ Bringe das Ladegerät deines Laptops mit!
 
 
-### 3. Platz für Linux schaffen  
+### 4. Platz für Linux schaffen  
 
 💿 **Speicherplatz-Check:**   
 - Für **Dual-Boot mit Windows**: Mindestens **30–50 GB freien Speicherplatz** reservieren.  
 
 
-### 4. Welche Linux Distro darf es sein?  
+### 5. Welche Linux Distro darf es sein?  
 
 Eine Linux-Distribution (kurz „Distro“) ist ein vollständiges Betriebssystem, das auf dem Linux-Kernel basiert und je nach Einsatzzweck mit unterschiedlicher Software und Vorkonfiguration ausgeliefert wird. Jede Distro ist wie eine eigene „Geschmacksrichtung“ – sie kommt mit einer unterschiedlichen Grundausstattung und ist auf bestimmte Einsatzzwecke optimiert.
 

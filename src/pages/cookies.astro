@@ -1,0 +1,48 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'xanten.cc | Selbstbestimmt im digitalen Raum',
+	description:
+		"Wir bieten digitale Dienste für ein soziales Miteinander und stärken die Nachbarschaft in Xanten.y"
+}
+// - Page Header
+const header = {
+	title: 'Wir verwenden keine <strong>Cookies</strong> um dich zu tracken.',
+	text: 'Falls du dich wunderst, warum du auf unserer Website nicht mit nervigen Cookie- und Tracker-Bannern kämpfen musst – hier ist die Antwort.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Cookies, nein danke!</h3>
+			<p>
+				Wir verwenden für den Betrieb dieser Seite keinerlei Cookies.
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>Unsere Website besteht aus statisch generiertem HTML und läuft auf Basis von Astro.</h4>
+			<p>
+				Uns ist es wichtig, dass dein Besuch hier so entspannt und störungsfrei wie möglich ist. Diese Seite dient in erster Linie dazu, dich zu informieren – und wir finden es fahrlässig, diesen Zweck durch Verhaltens-Tracking zu verwässern.
+			</p>
+
+			<p>
+				Als Dienstleister sind wir mehr daran interessiert, dich mit guter UX und schnellen Ladezeiten zu überzeugen, statt fragwürdige Marketing-Mechanismen einzusetzen, um deine User-Journey auf unserer Seite zu „optimieren“.
+			</p>
+
+			<h4>Keine überflüssigen Daten</h4>
+			<p>
+				Deshalb speichern wir keine überflüssigen Daten über dich oder deinen Besuch. Unser Ziel ist es, dein Erlebnis auf unserer Website besonders zu machen – so, wie du es von anderen Anbietern vermutlich nicht gewohnt bist.
+			</p>
+		</div>
+	</SidebarContent>
+</Layout>

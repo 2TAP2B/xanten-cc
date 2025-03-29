@@ -85,6 +85,10 @@ export const footerNavigationData: FooterData = {
 					subCategory: 'Impressum',
 					subCategoryLink: '/impress'
 				},
+				{
+					subCategory: 'Cookies',
+					subCategoryLink: '/cookies'
+				},
 			]
 		},
 		{
