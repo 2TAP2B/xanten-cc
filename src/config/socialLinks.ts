@@ -16,7 +16,7 @@ export const socialLinks: SocialLink[] = [
 	},
 	{
 		name: 'twitter',
-		link: 'https://github.com/2TAP2B/foxi-xanten',
+		link: 'https://github.com/2TAP2B/xanten-cc',
 		icon: 'github'
 	},
 	{
