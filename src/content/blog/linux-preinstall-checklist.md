@@ -13,13 +13,13 @@ Wenn du mit uns im Repair Café deinen Laptop mit Linux neu installieren oder al
 
 ### 1. Datensicherung (Backup!)  
 
-🗂️ **Wichtige Daten sichern:**  
+ **Wichtige Daten sichern:**  
 - Persönliche Dateien (Dokumente, Bilder, Musik, Passwörter) auf eine **externe Festplatte oder in die Cloud kopieren**.  
 - Notiere dir deinen Windowsproduktschlüssel.
 
 ### 2. Verschlüsselte Datenträger prüfen  
 
-🛑 BitLocker & Co. deaktivieren!
+ BitLocker & Co. deaktivieren!
 
 Falls deine Festplatte mit BitLocker verschlüsselt ist, schalte die Verschlüsselung aus!
 
@@ -35,14 +35,20 @@ Falls deine Festplatte mit BitLocker verschlüsselt ist, stelle sicher, dass du 
 
 ⚡ Bringe das Ladegerät deines Laptops mit!
 
-
 ### 4. Platz für Linux schaffen  
 
-💿 **Speicherplatz-Check:**   
+ **Speicherplatz-Check:**   
 - Für **Dual-Boot mit Windows**: Mindestens **30–50 GB freien Speicherplatz** reservieren.  
 
+### 5. Ist dein Gerät kompatibel?
 
-### 5. Welche Linux Distro darf es sein?  
+ **Architektur und Hardwareanforderungen prüfen**
+
+- Falls dein Laptop noch eine **32-Bit-Architektur** hat, können wir ihn leider nicht mehr unterstützen. Diese Geräte sind wirklich alt, und selbst viele Linux-Distributionen bieten dafür keinen Support mehr.
+- Alles, was **mindestens 64-Bit und 4 GB RAM** hat, lässt sich aber meist noch gut mit Linux nutzen.
+- **MacBooks mit Intel-CPU** laufen langsam aus dem offiziellen macOS-Support. Auch hier ist Linux eine großartige Alternative, um das Gerät weiter nutzen zu können.
+
+### 6. Welche Linux Distro darf es sein?  
 
 Eine Linux-Distribution (kurz „Distro“) ist ein vollständiges Betriebssystem, das auf dem Linux-Kernel basiert und je nach Einsatzzweck mit unterschiedlicher Software und Vorkonfiguration ausgeliefert wird. Jede Distro ist wie eine eigene „Geschmacksrichtung“ – sie kommt mit einer unterschiedlichen Grundausstattung und ist auf bestimmte Einsatzzwecke optimiert.
 
@@ -57,8 +63,7 @@ Beantworte ein paar Fragen zu deinen Anforderungen und deinem Wissenstand, und d
 [**Hier klicken für den DistroChooser**](https://distrochooser.de/de)
 
 ---
-###
-🎉 **Fertig? Dann komm vorbei!**  
+### 🎉 **Fertig? Dann komm vorbei!**  
 
 Falls du bei einem der Punkte unsicher bist, **keine Sorge – wir helfen dir vor Ort!**  
 
@@ -81,3 +86,4 @@ Auf [**DistroSea**](https://distrosea.com/de) stehen dir mehrere zur Auswahl.
 > Die hier bereitgestellte Checkliste dient ausschließlich zu Informationszwecken und ist nicht direkt mit dem Repair Café Xanten verbunden. Der Bloginhalt basiert auf allgemeinen Empfehlungen für die Installation von Linux und ist unabhängig von spezifischen Veranstaltungen oder Organisationen. Bitte beachte, dass die Installation und Konfiguration von Betriebssystemen Risiken mit sich bringen kann, und handle stets vorsichtig.
 >
 > Denke immer daran: **Kein Backup, kein Mitleid!**
+
