@@ -1,6 +1,6 @@
 ---
 title: 'Signal – Sicherer Messenger für maximale Privatsphäre'
-pubDate: 2025-04-19T05:00:00Z
+pubDate: 2025-04-02T05:00:00Z
 description: "Signal ist eine Open-Source-Messenger-App, die höchste Sicherheitsstandards bietet und auf Datenschutz setzt."
 author: 'Tobias'
 image: '/blog/signal-cover.png'
