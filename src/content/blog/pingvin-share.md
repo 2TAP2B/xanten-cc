@@ -20,6 +20,7 @@ Hier kommt **Pingvin Share** ins Spiel! Eine **Open-Source**-Alternative zu WeTr
 Pingvin Share ist perfekt für alle, die schnell und unkompliziert Dateien teilen wollen – **ohne sich registrieren zu müssen** oder sich Gedanken über Werbung und Tracking zu machen.
 
 **Vorteile von Pingvin Share:**
+
 ✅ **Einfache Bedienung** – Keine komplizierten Einstellungen, einfach Datei hochladen und Link teilen  
 ✅ **Keine Größenbeschränkung** – Du bestimmst selbst, wie groß die Dateien sein dürfen  
 ✅ **Keine Werbung & kein Tracking** – Volle Privatsphäre beim Teilen  
@@ -37,15 +38,6 @@ Die Nutzung von Pingvin Share ist denkbar einfach:
 3. **Link teilen** – Kopiere den generierten Link und sende ihn an deine Kontakte. Fertig!
 
 Die Empfänger brauchen nichts zu installieren oder sich zu registrieren – sie können die Datei einfach per Klick herunterladen.
-
----
-
-## Alternativen zu Pingvin Share
-
-Falls du weitere datenschutzfreundliche File-Sharing-Dienste suchst, gibt es noch:
-- **Send (von Mozilla, jetzt als Fork verfügbar)** – Verschlüsselte Dateiübertragung mit Ablaufdatum
-- **OnionShare** – Anonymes File-Sharing über das Tor-Netzwerk
-- **Nextcloud Files** – Umfassende Cloud-Lösung mit Sharing-Funktion
 
 ---
 
