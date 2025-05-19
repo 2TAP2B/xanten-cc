@@ -29,7 +29,7 @@ jobs:
 
     - name: Deploy to NGINX via SCP
       run: |
-        scp -r dist/* root@100.64.0.17:/matrix/static-files/public
+        scp -r dist/* root@100.64.0.13:/matrix/static-files/public
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 

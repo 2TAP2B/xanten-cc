@@ -53,7 +53,7 @@ export const navigationBarData: NavData = {
 	//			{ name: 'Terms', link: '/terms' }
 	//		]
 	//	},
-		{ name: 'Contact', link: '/contact' }
+		{ name: 'Kontakt', link: '/contact' }
 	],
 	navActions: [
 		//{ name: 'Try it!', link: '/blog', style: 'primary', size: 'lg' }

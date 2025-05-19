@@ -95,7 +95,7 @@ export const footerNavigationData: FooterData = {
 			category: 'Kontakt',
 			subCategories: [
 				{
-					subCategory: 'Contact',
+					subCategory: 'Kontakt',
 					subCategoryLink: '/contact'
 				},
 				{
