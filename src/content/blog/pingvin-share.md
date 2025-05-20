@@ -45,3 +45,4 @@ Die Empfänger brauchen nichts zu installieren oder sich zu registrieren – sie
 
 Pingvin Share ist eine großartige Alternative zu kommerziellen File-Sharing-Diensten. Keine Werbung, kein Tracking, keine nervigen Registrierungen – einfach Datei hochladen und sicher teilen. Falls du regelmäßig Dateien versenden musst und dabei Wert auf Datenschutz legst, ist Pingvin Share eine ideale Lösung! 🚀
 
+
