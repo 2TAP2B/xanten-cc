@@ -11,3 +11,5 @@ Selbstbestimmt im digitalen Raum – für Dich und Deine Privatsphäre. Hier st�
 Während analoge Infrastrukturen selbstverständlich für uns alle sind, mangelt es im digitalen Raum an offenen, sicheren und unabhängigen Angeboten.
 
 Wir packen es selbst an – für ein selbstbestimmtes und faires digitales Miteinander.
+
+Rebuild init
