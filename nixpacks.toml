@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs", "yarn", "vips", "python3", "gcc", "gnumake", "pkg-config"]
-
-[phases.install]
-cmds = ["yarn install", "npm rebuild sharp"]
-
-[phases.build]
-cmds = ["yarn run build"]
