@@ -8,6 +8,10 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://foxi.netlify.app/",
+  server: {
+    port: 3000,
+    host: true,
+  },
   integrations: [
     tailwind(),
     icon(),
