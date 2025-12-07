@@ -4,8 +4,8 @@
   "steps": {
     "install": {
       "commands": [
-        "yarn install",
-        "yarn add sharp --force"
+        "...",
+        "npm rebuild sharp"
       ]
     }
   }
