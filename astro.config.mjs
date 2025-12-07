@@ -12,6 +12,11 @@ export default defineConfig({
     port: 3000,
     host: true,
   },
+  vite: {
+    server: {
+      allowedHosts: ["xanten.build.dr0p.space"],
+    },
+  },
   integrations: [
     tailwind(),
     icon(),
