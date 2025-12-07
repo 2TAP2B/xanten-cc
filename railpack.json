@@ -1,3 +1,0 @@
-{
-  "buildAptPackages": ["libvips-dev", "libvips"]
-}
