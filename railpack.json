@@ -1,4 +1,12 @@
 {
   "$schema": "https://schema.railpack.com",
-  "buildAptPackages": ["libvips-dev", "libvips"]
+  "buildAptPackages": ["libvips-dev", "libvips", "build-essential", "python3"],
+  "steps": {
+    "install": {
+      "commands": [
+        "yarn install",
+        "yarn add sharp --force"
+      ]
+    }
+  }
 }
