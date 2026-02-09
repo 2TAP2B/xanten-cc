@@ -52,13 +52,13 @@ const { classes, team = [
 			<h2 class="text-balance text-4xl font-bold text-gray-800">Über www.<strong>xanten</strong>.cc</h2>
 			<p class="pb-0 text-lg text-gray-600 leading-relaxed">
 Die Idee kam mir Ende 2024 und im Frühjahr 2025 nahm das Projekt immer mehr Form an und momentan sieht es so aus. 
-<p><h2 class="text-balance text-3xl font-bold text-gray-800">Unser <strong>Team</strong> besteht aus:</h2></p>		</p>
+<p><h2 class="text-balance text-3xl font-bold text-gray-800">Unser <strong>Team</strong> besteht aus:</h2></p></p>
 
 		</Col>
 	</Row>
 	<Row>
 		{team.map(member => (
-			<Col span="3" classes="justify-center flex flex-col gap-6">
+<Col span="3" classes="justify-center flex flex-col gap-6">
 				<Card classes="text-center dark:!bg-neutral-800/50 p-6 shadow-lg rounded-lg">
 					<img src={member.image} alt={member.name} class="w-48 h-48 mx-auto rounded-lg hover:scale-105 hover:bg-gray-300 transition-transform duration-300" />
 					<h3 class="mt-4 text-xl font-semibold text-gray-900">{member.name}</h3>
@@ -66,7 +66,7 @@ Die Idee kam mir Ende 2024 und im Frühjahr 2025 nahm das Projekt immer mehr For
 					<p class="mt-2 text-gray-700">{member.description}</p>
 					<div class="flex justify-center gap-3 mt-4">
 						{member.contacts?.map(contact => (
-							<a href={contact.link} target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition">
+<a href={contact.link} target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition">
 							</a>
 						))}
 					</div>
@@ -74,36 +74,55 @@ Die Idee kam mir Ende 2024 und im Frühjahr 2025 nahm das Projekt immer mehr For
 			</Col>
 		))}
 	</Row>
-	<br></br>
-	<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-		<h2 class="text-balance text-4xl font-bold text-gray-800">Und unsere <strong>Idee</strong> ist folgende:</h2>
+	
+	<Row classes="mt-16">
+		<Col span="12" align="center" classes="mb-8">
+			<h2 class="text-balance text-4xl font-bold text-gray-800">Und unsere <strong>Idee</strong> ist folgende:</h2>
+		</Col>
+	</Row>
 
-	<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-		
-		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-			Ein Thema, das mich besonders beschäftigt, ist der Umgang mit unseren Daten im Internet. Oft bezahlen wir für Online-Dienste nicht mit Geld, sondern mit unseren persönlichen Informationen – ob wir wollen oder nicht. Häufig geschieht das so unauffällig, dass man es gar nicht bemerkt. Dabei sollte uns klar sein: Dienste wie Facebook oder Google sind keine gemeinnützigen Organisationen. Sie bieten keine kostenlosen Services wie Instagram oder Google Cloud an, ohne Gegenleistung. Die Währung, mit der wir hier zahlen, sind unsere Daten.		</p>
-		
-		<h4 class="text-balance text-2xl font-bold text-gray-800">Ein häufiges <strong>Argument</strong> das ich höre lautet:</h4>
-	
-		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-			„Ich habe doch nichts zu verbergen, mir ist das egal.“ Das mag für manche stimmen, aber für mich klingt es eher danach, als wüssten viele nicht, was im Hintergrund wirklich passiert.		</p>
-	
-		<h4 class="text-balance text-2xl font-bold text-gray-800">Es ist wie mit dem<strong> Gemüse </strong>im Garten:</h4>
-	
-		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-			Natürlich kann ich die Tomaten im Supermarkt kaufen – sie sind in Ordnung. Aber die selbst angebauten Tomaten aus dem eigenen Garten schmecken einfach viel besser.<br></br> Genauso ist es mit digitalen Diensten: Die fertigen Lösungen, die uns angeboten werden, mögen bequem sein, aber die Tools und Plattformen, die wir selbst gestalten und kontrollieren, bieten uns eine viel höhere Qualität und Kontrolle über unsere Daten und Privatsphäre.		</p>
-	
-		<h4 class="text-balance text-2xl font-bold text-gray-800">Meine<strong> Idee </strong>ist,</h4>
-	
-		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-			 Alternativen zu einigen gängigen Diensten anzubieten, die sicher und frei von kommerziellen Hintergedanken sind. Zum Beispiel ein sicherer Chatserver (Matrix), ein Passwortmanager (Vaultwarden) und ein Dateitransferdienst (Pingvin Share). <br></br>Diese Lösungen basieren auf Open-Source-Projekten und können genutzt werden, ohne dass unsere Daten verkauft oder analysiert werden.
-		</p>
-	
-		<h4 class="text-balance text-2xl font-bold text-gray-800"><strong>Zusätzlich</strong> möchte ich</h4>
-	
-		<p class="pb-0 text-lg text-gray-600 leading-relaxed">
-			 mit diesem Projekt Menschen sensibilisieren und schulen. Es geht mir darum, Bewusstsein zu schaffen und dazu anzuregen, sich Gedanken darüber zu machen, was im Internet mit unseren Daten passiert. Dabei liegt mein Fokus auf der Region Xanten. Ich möchte nicht nur online aufklären, sondern auch vor Ort Gespräche führen und Wissen teilen.
-		</p>
-	</Col>
+	<Row>
+		<Col span="12" classes="max-w-5xl mx-auto">
+			<Card classes="dark:!bg-neutral-800/50 p-8 shadow-lg rounded-lg">
+				<div class="space-y-6">
+					<p class="text-lg text-gray-300 leading-relaxed">
+						Ein Thema, das mich besonders beschäftigt, ist der Umgang mit unseren Daten im Internet. Oft bezahlen wir für Online-Dienste nicht mit Geld, sondern mit unseren persönlichen Informationen – ob wir wollen oder nicht. Häufig geschieht das so unauffällig, dass man es gar nicht bemerkt. Dabei sollte uns klar sein: Dienste wie Facebook oder Google sind keine gemeinnützigen Organisationen. Sie bieten keine kostenlosen Services wie Instagram oder Google Cloud an, ohne Gegenleistung. Die Währung, mit der wir hier zahlen, sind unsere Daten.
+					</p>
+					
+					<div class="pt-4">
+						<h4 class="text-2xl font-bold text-gray-800 mb-4">Ein häufiges <strong>Argument</strong> das ich höre lautet:</h4>
+						
+						<p class="text-lg text-gray-300 leading-relaxed mb-4">
+							„Ich habe doch nichts zu verbergen" oder „die wissen doch eh schon alles" sind für mich keine überzeugenden Argumente. Ja, vielleicht hast du nichts zu verbergen – aber du hast sehr viel zu <strong>verlieren</strong>: Profiling, Manipulation, Ausschluss, Fehlentscheidungen über dich.
+						</p>
+
+						<p class="text-lg text-gray-300 leading-relaxed mb-4">
+							Schau dir an, was heute alles gesammelt wird, wie Plattformen Daten zusammenführen und wie eng Tech-Konzerne mit politischen Machtstrukturen verflochten sind. In den USA sehen wir, wie schnell Daten zur Waffe werden können. Und auch in Deutschland ist ein solches Szenario nicht unrealistisch – willst du wirklich, dass deine Daten irgendwann in den Händen der AfD landen?
+						</p>
+
+						<p class="text-lg text-gray-300 leading-relaxed">
+							Dazu kommt: Gesetze wie der US CLOUD Act erlauben Behörden Zugriff auf Daten – selbst wenn die Server in Deutschland stehen. Ob Facebook, Instagram oder Outlook: Die Kontrolle liegt nicht bei uns. Genau deshalb müssen wir das Thema selbst in die Hand nehmen und auf Lösungen setzen, die wir verstehen, betreiben und kontrollieren.
+						</p>
+					</div>
+					
+					<div class="pt-4">
+						<h4 class="text-2xl font-bold text-gray-800 mb-4">Meine <strong>Idee</strong> ist,</h4>
+						
+						<p class="text-lg text-gray-300 leading-relaxed">
+							Alternativen zu einigen gängigen Diensten anzubieten, die sicher und frei von kommerziellen Hintergedanken sind. Zum Beispiel ein sicherer Chatserver (Matrix), ein Passwortmanager (Vaultwarden) und ein Dateitransferdienst (Pingvin Share). Diese Lösungen basieren auf Open-Source-Projekten und können genutzt werden, ohne dass unsere Daten verkauft oder analysiert werden.
+						</p>
+					</div>
+					
+					<div class="pt-4">
+						<h4 class="text-2xl font-bold text-gray-800 mb-4"><strong>Zusätzlich</strong> möchte ich</h4>
+						
+						<p class="text-lg text-gray-300 leading-relaxed">
+							mit diesem Projekt Menschen sensibilisieren und schulen. Es geht mir darum, Bewusstsein zu schaffen und dazu anzuregen, sich Gedanken darüber zu machen, was im Internet mit unseren Daten passiert. Dabei liegt mein Fokus auf der Region Xanten. Ich möchte nicht nur online aufklären, sondern auch vor Ort Gespräche führen und Wissen teilen.
+						</p>
+					</div>
+				</div>
+			</Card>
+		</Col>
+	</Row>
 	
 </Section>
