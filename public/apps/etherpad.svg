@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  <rect
+     width="512"
+     height="512"
+     rx="100"
+     fill="#46509E" />
+  <g transform="translate(80, 80)">
+    <!-- Document icon -->
+    <path
+       d="M 50,30 H 302 V 322 H 50 Z"
+       fill="white"
+       opacity="0.9" />
+    <path
+       d="M 302,30 V 322 H 50 V 30 H 302 M 312,20 H 40 V 332 H 312 Z"
+       fill="white" />
+    <!-- Lines representing text -->
+    <rect x="80" y="80" width="192" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="110" width="192" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="140" width="150" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="170" width="192" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="200" width="170" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="230" width="192" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+    <rect x="80" y="260" width="140" height="12" rx="6" fill="#46509E" opacity="0.7"/>
+  </g>
+</svg>

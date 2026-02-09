@@ -75,31 +75,45 @@ const header = {
 			<img src="/apps/matrix.svg" alt="Matrix / Element" class="w-24 h-24 object-cover rounded">
 			<h3>Matrix</h3>
 			<p>
-				Das Matrix-Protokoll ist ein dezentraler und verschlüsselter Chat-Dienst, der von vielen verschiedenen Apps unterstützt wird. Meine Lieblings App ist hier Fluffy.
+				Das Matrix-Protokoll ist ein dezentraler und verschlüsselter Chat-Dienst, der von vielen verschiedenen Apps unterstützt wird. Wir empfehlen SchildiChat für Android und Element für iOS.
 			</p>
 		</div>
 		<div class="basic-text">
-			<h4>Lade dir direkt die Fluffy App runter</h4>
+			<h4>Empfohlene Apps</h4>
 			<p>
+				<strong>Für Android:</strong> SchildiChat (basiert auf Element mit zusätzlichen Funktionen)
 			</p>
-			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
-				<a href="https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat" target="_blank" rel="noopener noreferrer">
-					<img src="https://img.shields.io/badge/Google%20Play-4287F5.svg?style=for-the-badge&logo=google-play&logoColor=white" alt="Install on Google Play" />
+			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px', marginBottom: '20px' }}>
+				<a href="https://play.google.com/store/apps/details?id=de.spiritcroc.riotx" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Google%20Play-4287F5.svg?style=for-the-badge&logo=google-play&logoColor=white" alt="SchildiChat auf Google Play" />
 				</a>
-				<a href="https://f-droid.org/packages/chat.fluffy.fluffychat/" target="_blank" rel="noopener noreferrer">
-					<img src="https://img.shields.io/badge/FDroid-34C759.svg?style=for-the-badge&logo=fdroid&logoColor=fff" alt="Install on FDroid" />
+				<a href="https://f-droid.org/packages/de.spiritcroc.riotx/" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/FDroid-34C759.svg?style=for-the-badge&logo=fdroid&logoColor=fff" alt="SchildiChat auf FDroid" />
 				</a>
-				<a href="https://apps.apple.com/us/app/fluffychat/id1551469600" target="_blank" rel="noopener noreferrer">
-					<img src="https://img.shields.io/badge/iOS-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="Install on iOS" />
-				</a>
-				<a href="https://github.com/krille-chan/fluffychat" target="_blank" rel="noopener noreferrer">
-					<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Mastodon GitHub Repository" />
-				</a>
-				<a href="https://matrix.org/ecosystem/clients/" target="_blank" rel="noopener noreferrer">
-					<img src="https://img.shields.io/badge/Alternative%20Apps-6A5ACD.svg?style=for-the-badge&logo=matrix&logoColor=white" alt="Alternative Mastodon Apps" />
+				<a href="https://github.com/SchildiChat/SchildiChat-android" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="SchildiChat GitHub" />
 				</a>
 			</div>
-			
+			<p>
+				<strong>Für iOS:</strong> Element
+			</p>
+			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px', marginBottom: '20px' }}>
+				<a href="https://apps.apple.com/app/element-messenger/id1083446067" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/iOS-000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="Element auf iOS" />
+				</a>
+				<a href="https://github.com/element-hq/element-ios" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Element iOS GitHub" />
+				</a>
+			</div>
+			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+				<a href="https://matrix.org/ecosystem/clients/" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Weitere%20Apps-6A5ACD.svg?style=for-the-badge&logo=matrix&logoColor=white" alt="Weitere Matrix Apps" />
+				</a>
+			</div>
+			<p></p>
+			<p>
+				Eine vollständige Übersicht aller verfügbaren Matrix-Apps findest du auf der <a href="https://matrix.org/ecosystem/clients/" target="_blank" rel="noopener noreferrer" class="underline">offiziellen Matrix-Webseite</a>.
+			</p>
 		</div>
 		<p></p>
 		<h4>Eigener Matrix Server</h4>
@@ -113,8 +127,46 @@ const header = {
 	
 		</a>
 	</SidebarContent>
-<!-- Vaultwarden -->
+<!-- Etherpad -->
 	<SidebarContent>
+		<div slot="sidebar" id="etherpad">
+			<img src="https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/etherpad.svg" alt="Etherpad" class="w-24 h-24 object-cover rounded">
+			<h3>Etherpad</h3>
+			<p>
+				Etherpad ist ein kollaborativer Echtzeit-Editor für gemeinsames Arbeiten an Dokumenten.
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>Etherpad läuft direkt im Browser</h4>
+			<p>
+			</p>
+			<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+				<a href="https://github.com/ether/etherpad-lite" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Etherpad GitHub Repository" />
+				</a>
+				<a href="https://etherpad.org/" target="_blank" rel="noopener noreferrer">
+					<img src="https://img.shields.io/badge/Etherpad-6A5ACD.svg?style=for-the-badge&logo=etherpad&logoColor=white" alt="Etherpad Website" />
+				</a>
+			</div>
+			<p></p>
+			<p>
+				Arbeite gemeinsam mit anderen in Echtzeit an Texten, mit farblicher Kennzeichnung der Autoren und integriertem Chat.
+			</p>
+		</div>
+		<p></p>
+		<h4>Eigener Server</h4>
+		<p>
+			Wir betreiben unseren eigenen Server, diesen kannst du hier finden.
+		</p>
+		<Button size="lg" link="https://pad.xanten.cc">
+			Zu Etherpad
+		</Button>
+	
+		</a>
+		
+	</SidebarContent>
+<!-- Vaultwarden -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
 		<div slot="sidebar" id="vaultwarden">
 			<img src="/apps/vaultwarden.svg" alt="Vaultwarden" class="w-24 h-24 object-cover rounded">
 			<h3>Vaultwarden</h3>
@@ -188,8 +240,47 @@ const header = {
 		</div>
 	</SidebarContent>
 
-<!-- Pingvin Share -->
+<!-- Excalidraw -->
 <SidebarContent>
+	<div slot="sidebar" id="excalidraw">
+		<img src="https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/excalidraw.svg" alt="Excalidraw" class="w-24 h-24 object-cover rounded">
+		<h3>Excalidraw</h3>
+		<p>
+			Excalidraw ist ein virtuelles Whiteboard zum Erstellen von Skizzen und Diagrammen mit Handzeichnungs-Optik.
+		</p>
+	</div>
+	<div class="basic-text">
+		<h4>Excalidraw läuft direkt im Browser</h4>
+		<p>
+		</p>
+		<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+			<a href="https://github.com/excalidraw/excalidraw" target="_blank" rel="noopener noreferrer">
+				<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Excalidraw GitHub Repository" />
+			</a>
+			<a href="https://excalidraw.com/" target="_blank" rel="noopener noreferrer">
+				<img src="https://img.shields.io/badge/Excalidraw-6A5ACD.svg?style=for-the-badge&logo=excalidraw&logoColor=white" alt="Excalidraw Website" />
+			</a>
+		</div>
+		<p></p>
+		<p>
+			Erstelle Diagramme, Skizzen und Visualisierungen im handgezeichneten Stil - perfekt für Brainstorming und Präsentationen.
+		</p>
+	</div>
+	<p></p>
+	<h4>Eigener Server</h4>
+	<p>
+		Wir betreiben unseren eigenen Server, diesen kannst du hier finden.
+	</p>
+	<Button size="lg" link="https://draw.xanten.cc">
+		Zu Excalidraw
+	</Button>
+
+	</a>
+	
+</SidebarContent>
+
+<!-- Pingvin Share -->
+<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
 	<div slot="sidebar" id="pingvin">
 		<img src="/apps/pingvin-share.svg" alt="Pingvin Share" class="w-24 h-24 object-cover rounded">
 		<h3>Pingvin Share</h3>
@@ -221,6 +312,45 @@ const header = {
 			Zu Pingvin Share
 		</Button>
 	</div>
+</SidebarContent>
+
+<!-- Enclosed -->
+<SidebarContent>
+	<div slot="sidebar" id="enclosed">
+		<img src="https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/enclosed.svg" alt="Enclosed" class="w-24 h-24 object-cover rounded">
+		<h3>Enclosed</h3>
+		<p>
+			Enclosed ist ein minimalistisches Tool zum Teilen von privaten und sicheren Notizen mit Ende-zu-Ende-Verschlüsselung.
+		</p>
+	</div>
+	<div class="basic-text">
+		<h4>Enclosed läuft direkt im Browser</h4>
+		<p>
+		</p>
+		<div style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+			<a href="https://github.com/CorentinTh/enclosed" target="_blank" rel="noopener noreferrer">
+				<img src="https://img.shields.io/badge/Github-grey?style=for-the-badge&logo=github" alt="Enclosed GitHub Repository" />
+			</a>
+			<a href="https://enclosed.cc/" target="_blank" rel="noopener noreferrer">
+				<img src="https://img.shields.io/badge/Enclosed-6A5ACD.svg?style=for-the-badge&logo=lock&logoColor=white" alt="Enclosed Website" />
+			</a>
+		</div>
+		<p></p>
+		<p>
+			Teile verschlüsselte Notizen und Dateien sicher. Setze ein Passwort, definiere eine Ablaufzeit und wähle optional, dass sich die Notiz nach dem Lesen selbst zerstört.
+		</p>
+	</div>
+	<p></p>
+	<h4>Eigener Server</h4>
+	<p>
+		Wir betreiben unseren eigenen Server, diesen kannst du hier finden.
+	</p>
+	<Button size="lg" link="https://bin.xanten.cc">
+		Zu Enclosed
+	</Button>
+
+	</a>
+	
 </SidebarContent>
 
 </Layout>
